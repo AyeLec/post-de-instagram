@@ -1,0 +1,45 @@
+.wrapper {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto; 
+    align-items: center;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 24px;
+  }
+
+h1 {
+    font-size: 40px;
+    text-align: left;
+    width: 65%;
+}
+  
+img {
+    width: 100%;
+    margin-bottom: -10px;
+    aspect-ratio: 4/3; /* o 4/3, 1/1, lo que prefieras */
+    object-fit: cover;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.post-header p {
+    color: gray;
+}
+
+.post {
+    width: 65%;
+}
+
